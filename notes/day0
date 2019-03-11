@@ -1,0 +1,90 @@
+Why do we need comments? 
+
+A comment is a special construct in a programming language tht allows developer to mention additional information associated with the program. 
+
+Improves portability and maintainability of code
+
+<b>Comments</b>
+
+Single line comments are made with two (//) forward slashes : // Comments 
+
+Multi line comments: */ Comments */
+
+JARGON
+
+assign: when you give a variable a value
+access: obtaining values from a data typ4
+log: use the method console.log (* place what you want to see here*)
+
+VARIABLES
+
+a named container for data
+- the var keyword declares a new variable with the given name
+- can be assigned a value using the = operators
+- only need to be declared once
+- referencing the name of the variable will return the value it contains 
+
+VARIABLES EXAMPLES
+
+var lastName; // <-- Declaring a variable
+lastName = 'Robinson'; // <-- Assigning a variable 
+lastName = 'Connor'; // <-- Re-assigning a variable 
+
+STRINGS 
+- A collection of characters / symbols surrounded by quote i.e ( ' ' or " ")
+- We can access individual characters in a string with bracket notation 
+- Can be combined using the + operator
+- Have a length property that returns the total number of characters the string contains  (.length) 
+
+STRING EXAMPLES 
+
+var myVar; // <-- Declaring a variable
+myVar = 'Robinson'; // <-- String made with single quotes (')
+mrVar = "Robinson"; // <-- string made with double quotes (") 
+
+NUMBERS
+- Any numerical value: positive, negative, or with decimal points
+- Like regular numbers, we can add, subtract, divide and multiply;
+- And new values can be created with arithmetic expressions;
+
+NUMBER EXAMPLEs
+ 
+var myNum = 5; // Regular number
+myNum = 1.5; // Decimal Number
+myNum = 4 + 5; // Mathematical Expressions 
+
+BOOLEANS
+- a true or false value
+- you can almost think of them similar to on/off switch
+- typically used in conditional statement
+- can be created with boolean expressions using comparison operators 
+
+BOOLEAN EXAMPLES 
+
+var myBool = true; // Boolean value
+var myBool = false; // Boolean value
+myBool = 1 === 1; // Comparison 
+
+USING CONSOLE LOG
+- a way for us as developers to physically see data
+- shows as plain text in our console
+- console is just an object for us to use with different methods built in
+
+> green is what is being returned / white is console <
+
+CONSOLE LOG EXAMPLES
+
+var name = 'Andy'; // <-- variable
+console.log(name); // <-- this will log 'andy' to the console 
+
+DEFINITIONS 
+
+- Variable = can be thought of as named containers. You can place data into these containers and thenrefer to the data simply by naming the container.
+- String = is a sequence of characters enclosed with quotes
+- Number = is just that, a number or numerical value you can work with
+- Boolean = is value based on true or false values 
+
+HOMEWORK 
+
+- Comment your Javascript Code - Word Blanks
+- Read Arrays and Objects Section in Greenlight 
