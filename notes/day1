@@ -1,0 +1,68 @@
+DAY ONE
+
+ARRAY DEFINITIONS 
+- an array literal is a complex data type that is used to store multiple data types
+- every value in the list has an index - the number position of the value in the list
+- first value in the list has an index of 0, the second has an index of 1 and so on. 
+- arrays can contain references to any other data type, this includes: strings, nuimbers, booleans, other arrays and objects, and even functions! 
+
+ARRAY EXAMPLES
+
+[] // <-- this is an array literal 
+var myArray = []; // <--- this is an array literal assigned to a variable named myArray;
+myArray = ['a', 'b', 'c']; // <-- this is an array literal with string data types 
+
+JARGON
+index : a number that specifies a position inside of an array
+bracket notation : returns the value in the array at the index provided
+list/collection: a more specific term to describe an array;
+method : functions on an object;
+literal: a term used to describe a literal creation of something i.e any data type, string literal, array literal, object literal;
+
+ARRAYS CONT'd
+-arrays have a length property which returns the number of values 
+
+ARRAY PROPERTY EXAMPLES
+
+var myArr = ['a','b','c']; // <-- an array literal with elements;
+myArr.length //  returns the number 3;
+
+OBJECT DEFINITIONS
+
+an ovject literal is a complex data type that is used to store data
+- usually a collection of data relating to a single object/identity stored in curly braces {}
+- similar to arrays, but instead of using indices, values are stored at keys in objects
+- objects can contain references to any other data type, this includes strings, booleans, other arrays, and objects and even functions 
+
+OBJECT EXAMPLES
+
+{} // <-- this is an object literal
+var myObject = {} // <-- this is an objet literal assigned to a variable named myObject
+myObject = {key1: 'a' , key2: 'b'}; // <-- this is an Object literal with string data types, assigned to key1 and key2
+
+JARGON 
+
+kay/value pairs: a pair of key/values in an object
+properties: refers to key/key value pairs
+bracket notation: returns the value in the object at the provided key
+dot notation: returns the value in the object at a literal key 
+
+OBJECT CONTS
+objects to not have a length property
+every value has a corresponding key you can almost think of it like a dictionary where every word has a definition
+similar to a n array in which objects/arrays can grow indefinitely 
+
+OBJECT ACCESS EXAMPLES
+
+var myObject = {key1: 'a', key2: 'b'}; <-- object literal
+myObject['key1']; // <-- bracket notation -- gives us A 
+myObject.key2; // <-- Dot notation gives us 'b'
+
+HOMEWORk
+
+store multiple values in 1 variable using Javascript Arrays
+shopping list & build javascripts objects - record collections
+read conditional section in greenlight
+attempt arrays/onjects quiz
+complete quizzes from datatypes, consoles, variables sections (must be 100%) 
+
