@@ -1,0 +1,82 @@
+DAY 2 : CONDITIONAL STATEMENTS
+
+IF STATEMENTS
+- if statement - using the keyword if to check for a s specific condition
+- runs the code wrapped in curly braces {} only if a condition is true
+- the condition is any boolean vallue (true/false) or any boolean expression i.e 1 === 1 (true) or 1 !-- 1(false) 
+- the condition being checked must be inside parentheses ()
+
+IF STATEMENTS EXAMPLES
+if (/*some condition here*/) {
+//run some code here if condition is true
+console.log('this code ran!');
+}
+
+if (1 === 1) {
+console.log('this code ran!');
+}
+
+JARGON
+- Code block : a space where a specific set of code can/will execute
+- evaluate: what a line of code will resolve to
+- conditional: the part of the if statement that determines if the code will run "based on boolean values"
+- keywords: a specific word in javascript that has a specific purpose and can not be used otherwise
+- comparison operator: returns a logical value based on whether if the comparison is true or false
+
+ELSE AND IF ELSE STATEMENTS
+what if we anted/needed to have more than one conditional statement? We can chain these things together with else if statements. WE also can set 'defaults' with an else statement. Else statements only run when all other conditions are false. 
+
+ELSE IF STATEMENTS
+
+- else-if statement - using the keyword else if to check for a specific condition
+- just like if statements, it runs the code wrapped in curly braces {} only if a condition is true
+- but only if the initial if statement is false
+- again just like if the condition is any boolean value (true/false) or any boolean expresssion ie. 1 === 1 or 1 !==1 
+- the condition being checked must be inside the parentheses ()
+
+ELSE IF STATEMENTS EXAMPLES
+
+if (/*some condition here*/) {
+    //run some code here
+    console.log('this code ran!');
+  } 
+else if (/*another condition to check */) {
+     //run some code here if 2nd condition is true 
+   }
+   
+USING THE STRUCTURE OF AN IF ELSE IF STATEMENT
+behind each conditional is a code block that we can use to execute code.  A mantra to keep in mind with using if else if statements is "if this becomes true, do this. Else if this becomes true do this. Else do this". So when we use if statements, we determine what code runs with an ex[ression that ev aluates to a boolean value. 
+
+CONTROL FLOW // IF ELSE IF CHAINS
+keep in mind that when a block of code executes the rest of the chain is ignored. 
+
+so if you have a conditional that an be true in two separate cases , only one bloc of code will run
+
+ELSE STATEMENTS
+
+- else statement - using the keyword else that runs a block of code if all other conditions are false
+- so if all other conditions are false, that means this is the defaults
+- since else statements are defaults there is no condition to check for
+- the only thing that follows the keyword else is a code block or body of code (curly braces) {}
+
+ELSE STATEMENTS EXAMPLES
+
+if (/* condition */) {
+// run some code here
+console.log('this code ran!'); 
+} else if (/* 2nd condition */) {
+// run some code here 
+} else {
+//run some code if all other conditions are false 
+}
+
+HOMEWORK
+
+Understanding Boolean Values - counting cards && profile lookup - Use Multiple Conditional Operators
+Attempt Conditionals Quiz
+Read functions section in Green light
+Have Array/Objects Quiz completed
+
+
+
+
