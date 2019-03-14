@@ -1,0 +1,40 @@
+DAY 3 - FUNCTIONS > Definiing Functions, Calling/Invoking Functions 
+
+WHAT IS A FUNCTION?
+- Reusable blocks of code that accept inputs,  process those inputs, and returns a new data value. 
+- There are 4 parts to a function declaration
+  > Name
+  > Parameters/Arguments
+  > Function body (where the code runs)
+  > Return statement 
+  
+  DEFINING FUNCTIONS
+  function name (parameter) {
+    function body
+    function body
+    return statement 
+  }
+  
+  ^ do not have to have a return statement (not required) .. very flexible ..
+  
+  FUNCTION PARAMETERS /ARGUMENTS
+  - functions optionally take parameters/arguments
+  - Parameters are just placeholders for arguments that are later "passed" or given to the function at call time 
+  
+  FUNCTION RETURN STATEMENT
+  - functions optionally have a return statement
+  - the return statement will give value to a function call (pull value to parent scope);
+  - return statements can only be used in a function body
+  
+  FUNCTION CALL 
+  - we call a function by its name, followed by parenthesis ()
+  - calling a function, runs the code in the function body
+  - calling functions and defining a function are 2 different things 
+  
+  CALLING FUNCTIONS
+  name(arguments)
+  
+  FUNCTIONS
+  - ** IMPORTANT** console.log and return are not the same thing
+  - Return statements inside a function body returns a value or data
+  0 Console.log does not return , giving you undefined 
