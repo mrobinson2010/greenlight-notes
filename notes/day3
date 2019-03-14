@@ -38,3 +38,10 @@ WHAT IS A FUNCTION?
   - ** IMPORTANT** console.log and return are not the same thing
   - Return statements inside a function body returns a value or data
   0 Console.log does not return , giving you undefined 
+  
+  HOMEWORK
+  
+  write reusable javascript with functions - stand in line
+  attempt functions quiz
+  read loops section in greenlight
+  have conditionals quiz completed
