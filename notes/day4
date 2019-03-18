@@ -1,0 +1,44 @@
+LOOPS
+
+LOOPING
+- iterate: to perform or utter repeatedly
+- why is this construct important: so we can perform an action a specific number of times
+- 3 main loops:
+while loops
+for loops
+for-in loops
+
+JARGON
+- start condition: the condition set to tell your loop where to begin
+- stopping condition: the condition set to tell your loop when to stop (based on boolean value)
+- increment: how much we will move per iteration
+
+EXAMPLES
+for (var i = 0; i < 5; i++) {
+console.log('Hello');
+}
+
+EXAMPLES
+for (var key in object) {
+console.log(key);
+console.log(onject[key]);
+} 
+
+var object = {
+  firstName: 'Justin',
+  lastName: 'Connor',
+  homeTown: 'Loray'
+  }
+  
+  var count = 0;
+    while (count < 5) {
+      console.log(count);
+        count++;
+  }; 
+  
+  HOMEWORK
+  
+  due by day 5 >> 
+  iterate with javascript while loops - iterate with javascript
+  due while loops & last 4 of functional/object oriented
+  programming 
