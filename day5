@@ -1,0 +1,25 @@
+The Process
+> What is your error?
+> What is your expectation?
+> What is your code justification?
+> Verify your justification
+^ Repeat
+
+Pseudocoding
+
+> The act of planning out what you want your code to do
+> Read the instructions
+> Re-word the instructions for clarity
+> reak down the problem in as many small pieces as needed
+>Read the instructions
+> Match your logic 
+
+Understanding Errors
+> Syntax error: unexpected token (27:4)
+ReferenceError: test is not defined 
+at eval: 27:1
+at eval
+at New Promise
+
+Type Error Cannt read property o'0' of undefined
+at eval 28:18
